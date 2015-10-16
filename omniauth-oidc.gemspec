@@ -1,15 +1,14 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path(File.join('..', 'lib', 'omniauth', 'google_oauth2', 'version'), __FILE__)
+require File.expand_path(File.join('..', 'lib', 'omniauth', 'oidc', 'version'), __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = "omniauth-google-oauth2"
-  gem.version       = OmniAuth::GoogleOauth2::VERSION
+  gem.name          = "omniauth-oidc"
+  gem.version       = OmniAuth::Oidc::VERSION
   gem.license       = 'MIT'
-  gem.summary       = %q{A Google OAuth2 strategy for OmniAuth 1.x}
-  gem.description   = %q{A Google OAuth2 strategy for OmniAuth 1.x}
-  gem.authors       = ["Josh Ellithorpe", "Yury Korolev"]
-  gem.email         = ["quest@mac.com"]
-  gem.homepage      = "https://github.com/zquestz/omniauth-google-oauth2"
+  gem.summary       = %q{An OpenID Connect strategy for OmniAuth 1.x}
+  gem.description   = %q{An OpenID Connect strategy for OmniAuth 1.x}
+  gem.authors       = ["Stephen Doxsee"]
+  gem.homepage      = "https://github.com/sdoxsee/omniauth-oidc"
 
   gem.files         = `git ls-files`.split("\n")
   gem.require_paths = ["lib"]
