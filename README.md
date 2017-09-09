@@ -1,6 +1,6 @@
 # OmniAuth OpenID Connect Strategy
 
-Strategy to authenticate with OpenID Connect in OmniAuth largely based a generalized implementation of https://github.com/zquestz/omniauth-google-oauth2. I had been using https://github.com/jjbohn/omniauth-openid-connect but it hadn't been updated in a while and each release was giving me trouble. This gem doesn't do discovery or anything fancy but it'll get back your id_token, access_token, and refresh_token...which is what I needed.
+Strategy to authenticate with OpenID Connect in OmniAuth largely based on a generalized implementation of https://github.com/zquestz/omniauth-google-oauth2. I had been using https://github.com/jjbohn/omniauth-openid-connect but it hadn't been updated in a while and each release was giving me trouble. This gem doesn't do discovery or anything fancy but it'll get back your id_token, access_token, and refresh_token...which is what I needed.
 
 Apologies that tests and documentation are sparse. If you have questions, create an issue. Thanks!
 
