@@ -86,6 +86,10 @@ module OmniAuth
 
       private
 
+      def callback_url
+        full_host + script_name + callback_path
+      end
+      
       def get_token_options(redirect_uri)
         { :redirect_uri => redirect_uri }.merge(token_params.to_hash(:symbolize_keys => true))
       end
